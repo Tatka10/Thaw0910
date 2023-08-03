@@ -1,3 +1,9 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 /*
@@ -19,9 +25,35 @@ public class Main {
         r.move(); printState(r);
         r.rotateLeft(); printState(r);
         r.move(); printState(r);
+
+        String fileInput1 =  "src/a1.txt";
+        String fileInput2 =  "src/a2.txt";
+        String fileOutput = "src/res.txt";
+
+
     }
 
     private static void printState(Robot r) {
         System.out.println("местоположение " + r.x + " " + r.y + ",  направление " + r.direction);
+    }
+
+    static String readStringFromFile(String fileInput){
+        try{
+            Scanner sc = new Scanner(new File(fileInput));
+            String s = sc.next();
+//            FileWriter output = new FileWriter((new File(fileOutput)));
+//            System.out.println("значение равно " + (x+y));
+//            String s = "значение равно " + (x+y);
+//            output.write(s);
+//            sc.close();
+//            output.close();
+        }
+        catch(FileNotFoundException r){
+            System.out.println("нет файла");
+        }
+        catch(IOException e){
+            System.out.println("нет файла");
+        }
+        return
     }
 }
