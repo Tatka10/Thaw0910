@@ -14,9 +14,9 @@ public class Main {
             System.out.println( "error! we cant do it");
             System.out.println(e.getMessage());
         }
-        finally {
-            System.out.println( "we in finally");
-        }
+        //finally {
+           // System.out.println( "we in finally");
+        //}
         System.out.println("dalshe");
     }
 }
