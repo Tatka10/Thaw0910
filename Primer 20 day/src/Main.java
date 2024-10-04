@@ -5,7 +5,6 @@ public class Main {
         int[] mass = {5, 6, 7, 8, 9};
 
         metod(mass);
-
         }
 
 
