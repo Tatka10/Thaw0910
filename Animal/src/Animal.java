@@ -3,12 +3,14 @@ public abstract class Animal {
     String colour;
     double weight;
 
-    public Animal(String name, String colour, double weight){
-        this.name=name;
-        this.colour=colour;
-        this.weight=weight;
+    public Animal(String name, String colour, double weight) {
+        this.name = name;
+        this.colour = colour;
+        this.weight = weight;
 
     }
-    public abstract void run();   } ;
 
-}
+    public abstract void run();
+};
+
+
