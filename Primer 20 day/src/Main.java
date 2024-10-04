@@ -7,7 +7,6 @@ public class Main {
         metod(mass);
         }
 
-
     public static int[] metod(int[] arr) {
         try {
             for (int i = 0; i < arr.length + 1; i++) {
