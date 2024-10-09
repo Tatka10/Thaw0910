@@ -16,10 +16,7 @@ import java.util.Scanner;
 //№	INPUT.TXT	OUTPUT.TXT
 //1	6
 //-20 30 -40 50 10 -10	2
-//2	8
-//10 20 30 1 -10 1 2 3	4
-//3	5
-//-10 0 -10 0 -10	0
+
 public class Main {
     public static void main(String[] args) {
         int mass[] = readData();
