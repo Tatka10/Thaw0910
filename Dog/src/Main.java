@@ -6,12 +6,11 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Dot dot1 = new Dot(int x1,int y1);
+        Dot dot1 = new Dot( int x1, int y1);
 
 
-
-        }
     }
+}
 }
 
 
